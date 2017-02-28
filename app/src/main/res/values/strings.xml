@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EventBus_GreenRobot</string>
+    <string name="action_settings">Settings</string>
+</resources>
