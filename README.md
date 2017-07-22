@@ -2,6 +2,11 @@
 
 ```java
 /**
+ * EventBus是一款针对Android优化的发布/订阅事件总线。
+ * 主要功能是替代Intent,Handler,BroadCast在Fragment，Activity，Service，线程之间传递消息。
+ * 优点是开销小，代码更优雅，以及将发送者和接收者解耦。
+ *
+ *
  * 使用greenrobot:eventbus框架，必须在EventBus的4个调用函数前加上@Subscribe，以注明接收。
  *
  * 使用不同版本的EventBus包，其用法略有区别，大同小异。
